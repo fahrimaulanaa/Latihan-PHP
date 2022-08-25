@@ -1,29 +1,29 @@
 <?php
 $day = date ("D");
 switch ($day) {
-    case "Mon":
+    case "Senin":
         echo "Hari ini hari Senin";
         break;
-    case "Tue":
+    case "Selasa":
         echo "Hari ini hari Selasa";
         break;
-    case "Wed":
+    case "Rabu":
         echo "Hari ini hari Rabu";
         break;
-    case "Thu":
+    case "Kamis":
         echo "Hari ini hari Kamis";
         break;
-    case "Fri":
+    case "Jumat":
         echo "Hari ini hari Jumat";
         break;
-    case "Sat":
+    case "Sabtu":
         echo "Hari ini hari Sabtu";
         break;
-    case "Sun":
+    case "Minggu":
         echo "Hari ini hari Minggu";
         break;
     default:
-        echo "Hari ini tidak ada";
+        echo "Hari ini tidak ada di minggu";
         break;
 }
 echo "<br>";
