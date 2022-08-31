@@ -8,15 +8,15 @@ function do_login($username, $password){
 
     //cel kondisi jika username dan password benar
     if($username == "admin" && $password == "admin"){
-        $_SESSION['user'] = $username;
-        $_SESSION['pass'] = $password;
+        $_SESSION["user"] = $username;
+        $_SESSION["pass"] = $password;
         header("location:beranda.php");
     }
 }
 
 function check_login(){
     //cek kondisi login session
-    if(!isset($_SESSION['username'])){
+    if(!isset($_SESSION["user"])){
         header("location:index.php");
     }
 }
